@@ -72,5 +72,23 @@ function sayHello1(){
 }
  var b=sayHello1()()
 //  console.log(b)
+function add(a,b){
+    return a+b;
+}
+function highOrder(){
+    console.log("This is higher order")
+    return  function( ){
+
+    };
+}
+highOrder()
+
+
+// function fetchApi(){
+//       setTimeout();
+//       return "this is api data";
+// }
+// fetchApi()
+
 
 
