@@ -31,6 +31,8 @@
 // console.log("data of mobile1:",mobile1.year)
 
 //Here we will make the data of the college student 
+
+//This can also be treated as protyotype where we are predefining the base model
 function student(name,roll_no,course,grades,position,year){
     this.name=name;
      this.roll_no=roll_no;
